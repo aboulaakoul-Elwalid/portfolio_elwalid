@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elwalid Aboulaakoul - Portfolio</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        background-color: #f5f5dc; /* Light cream/beige */
+        color: #333; /* Dark text for contrast */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 800px;
+        width: 100%;
+        background-color: #f5f5dc; /* Match body background for seamlessness */
+        padding: 30px;
+        box-sizing: border-box;
+      }
+
+      header {
+        background-color: #a52a2a; /* Deep red (burgundy/maroon) */
+        color: white;
+        padding: 40px 0;
+        text-align: center;
+        margin-bottom: 30px;
+        border-radius: 8px; /* Slightly rounded corners for a modern touch */
+      }
+
+      .profile-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #f5f5dc; /* White border */
+        margin-bottom: 20px;
+      }
+
+      h1,
+      h2 {
+        color: #a52a2a; /* Deep red for headings */
+        text-align: center;
+      }
+
+      .about-section,
+      .interests-section {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      }
+
+      .about-section p {
+        line-height: 1.6;
+        margin-bottom: 10px;
+      }
+
+      .interests-section ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+      }
+
+      .interests-section li {
+        background-color: #a52a2a;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 20px;
+      }
+
+      footer {
+        text-align: center;
+        padding-top: 20px;
+        color: #777;
+      }
+
+      /* Subtle geometric pattern (can be enhanced with more complex CSS or background images) */
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 10px,
+          rgba(0, 0, 0, 0.02) 10px,
+          rgba(0, 0, 0, 0.02) 20px
+        );
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="your-photo.jpg" alt="Your Photo" class="profile-image" />
+        <h1>Elwalid Aboulaakoul</h1>
+      </header>
+
+      <section class="about-section">
+        <h2>About Me</h2>
+        <p>
+          Hello! My name is Elwalid Aboulaakoul, and I am a 20-year-old student
+          passionate about the world of Big Data.
+        </p>
+        <p>
+          I dedicate a significant amount of time to studying and working,
+          driven by a strong curiosity and a desire to learn and contribute in
+          the field of computer science.
+        </p>
+      </section>
+
+      <section class="interests-section">
+        <h2>Interests</h2>
+        <ul>
+          <li>Mathematics</li>
+          <li>Computer Science</li>
+          <li>Research</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Elwalid Aboulaakoul. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
